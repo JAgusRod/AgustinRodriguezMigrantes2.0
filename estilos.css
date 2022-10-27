@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* background-image: url(./imagenes/textura-tablas.jpg);
+    background-size: 65%; */
+    background-color: rgb(38, 21, 136);
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.navbar-brand:hover{
+    text-shadow: 3px 3px 5px yellow;
+    transform: scale(1.05);
+    transition: 1.7s;
+}
+
+.navbar-collapse{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.jumbotron{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imagenes/fondoContinentesMadera.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 40vh; */
+    color: yellow;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Fuzzy Bubbles', cursive;
+    /* font-family: 'Lobster', cursive; */
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+h3{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    /* background-color: black; */
+    background-color: rgb(38, 21, 136);
+    color: yellow;
+    /* text-decoration: underline; */
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-shadow: 1px 1px 6px black;
+}
+
+.img1{
+    height: 210px;
+    background-image: url(./imagenes/españa1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img2{
+    height: 210px;
+    background-image: url(./imagenes/españa3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img3{
+    height: 210px;
+    background-image: url(./imagenes/españa5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img4{
+    height: 210px;
+    background-image: url(./imagenes/españa7.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img5{
+    height: 210px;
+    background-image: url(./imagenes/portugal1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img6{
+    height: 210px;
+    background-image: url(./imagenes/portugal2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img7{
+    height: 210px;
+    background-image: url(./imagenes/portugal4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img8{
+    height: 210px;
+    background-image: url(./imagenes/portugal7.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img9{
+    height: 210px;
+    background-image: url(./imagenes/andorra2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img10{
+    height: 210px;
+    background-image: url(./imagenes/andorra3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img11{
+    height: 210px;
+    background-image: url(./imagenes/andorra5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img12{
+    height: 210px;
+    background-image: url(./imagenes/andorra6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img13{
+    height: 210px;
+    background-image: url(./imagenes/irlanda4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img14{
+    height: 210px;
+    background-image: url(./imagenes/irlanda5.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img15{
+    height: 210px;
+    background-image: url(./imagenes/irlanda6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+.img16{
+    height: 210px;
+    background-image: url(./imagenes/irlanda8.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border: 5px groove rgba(255, 255, 255, 0.705);
+}
+
+.publi1{
+    margin-top: 15px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    background-image: url(./imagenes/textura-tablas.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.publi2{
+    margin-top: 15px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    background-image: url(./imagenes/textura-tablas.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.publi3{
+    margin-top: 15px;
+    box-sizing: border-box;
+    height: 150px;
+    padding: 15px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(38, 21, 136);
+    color: yellow;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
+.rrss a{
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px 5px black;
+}
+.rrss a:hover{
+    color: yellow;
+    font-size: 23px;
+}
+
+.footer{
+    border-top: solid 4px white;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 18px;
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: rgba(255, 255, 255, 0.849);
+}
+
+body{
+    background-color: black;
+}
+
+.esp{
+    border-top: 18px rgb(255, 255, 255) double;
+}
+
+.cright{
+    margin: 0;
+    height: 250px;
+    background-color: yellow;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: justify;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+/* .cleft{
+    margin: 0;
+} */
+
+.cl1{
+    background-image: url(./imagenes/españa1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cl2{
+    background-image: url(./imagenes/portugal1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cl3{
+    background-image: url(./imagenes/andorra2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cl4{
+    background-image: url(./imagenes/irlanda2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.nos{
+    height: 300px;
+    border: 3px solid white;
+}
+
+.nos p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: justify;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 18px;
+    /* color: rgba(192, 192, 43, 0.904); */
+    color: yellow;
+}
+
+.nos1{
+    background-image: url(./imagenes/ciudad2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nos3{
+    background-image: url(./imagenes/montaña.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nos5{
+    background-image: url(./imagenes/playa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nleft1{
+    background-image: url(./imagenes/pasaporte.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.nleft2{
+    background-image: url(./imagenes/covid.png);
+    background-size: cover;
+    background-position: top center;;
+}
+
+.nleft3{
+    background-image: url(./imagenes/CV.png);
+    background-size: cover;
+    background-position: center;;
+}
+
+.nleft4{
+    background-image: url(./imagenes/libros2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.nleft{
+    height: 200px;
+    border: 3px solid white;
+}
+
+.nright{
+    height: 200px;
+    border: 3px solid white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: justify;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 18px;
+    /* color: rgba(192, 192, 43, 0.904); */
+    color: yellow;
+}
+
+h5{
+    text-align: start;
+}
+
+.novedades{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imagenes/fondoMapaCamara.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.nos2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.3)), url(./imagenes/fondoMapaItalia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nos4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.3)), url(./imagenes/fondoMapaItalia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nos6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.3)), url(./imagenes/fondoMapaItalia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./imagenes/fondoMapas.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 20px;
+    color: yellow;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border: 5px solid yellow;
+}
+
+iframe{
+    height: auto;
+    width: auto;
+} 
+
+/* .formulario{
+    height: 80%;
+    width: 80%;
+} */
+
+#textArea{
+    max-height: 140px;
+}
+
+.formulario{
+    border: 3.5px solid yellow;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 30.25%;
+    padding-bottom: 60.25%;
+    height: 0;
+    overflow: hidden;
+    border: 3.5px solid yellow;
+}
+
+.mapa iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
