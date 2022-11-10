@@ -20,7 +20,7 @@
 }
 
 .navbar-brand:hover{
-    text-shadow: 3px 3px 5px yellow;
+    text-shadow: 3px 3px 5px orangered;
     transform: scale(1.05);
     transition: 1.7s;
 }
@@ -45,7 +45,7 @@
     border-bottom: 5px solid black;
 }
 
-h3{
+h2{
     margin: 0;
     box-sizing: border-box;
     padding: 10px;
@@ -58,133 +58,212 @@ h3{
     text-shadow: 1px 1px 6px black;
 }
 
+.subtindex{
+    margin: 8px 0 8px 0;
+}
+
+#h2esp{
+    margin-top: 3px;
+}
+
+#carouselExampleCaptions1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleCaptions2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleCaptions3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#carouselExampleCaptions4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imggg{
+    height: 80vh;
+    width: 75vw;
+    box-sizing: border-box;
+    /* border-bottom: 5px groove rgba(255, 255, 255, 0.705); */
+    /* background-image: url(./imagenes/españa1.jpg); */
+    /* background-size: cover;
+    background-position: center;
+    box-sizing: border-box; */
+}
+.carousel-caption{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+}
+
 .img1{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/españa1.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img2{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/españa3.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img3{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/españa5.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img4{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/españa7.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img5{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/portugal1.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img6{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/portugal2.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img7{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/portugal4.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img8{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/portugal7.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img9{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/andorra2.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img10{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/andorra3.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img11{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/andorra5.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img12{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/andorra6.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img13{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/irlanda4.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img14{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/irlanda5.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img15{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/irlanda6.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 .img16{
-    height: 210px;
+    height: 80vh;
+    width: 75vw;
     background-image: url(./imagenes/irlanda8.jpg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border: 5px groove rgba(255, 255, 255, 0.705);
+    border: 5px solid yellow;
+    /* border: 5px groove rgba(255, 255, 255, 0.705); */
 }
 
 .publi1{
@@ -258,7 +337,7 @@ body{
 
 .cright{
     margin: 0;
-    height: 250px;
+    height: 290px;
     background-color: yellow;
     font-family: 'Fuzzy Bubbles', cursive;
     text-align: justify;
@@ -269,6 +348,7 @@ body{
 
 h4{
     text-align: center;
+    font-weight: bold;
 }
 
 /* .cleft{
@@ -277,28 +357,28 @@ h4{
 
 .cl1{
     background-image: url(./imagenes/españa1.jpg);
-    height: 250px;
+    height: 290px;
     background-size: cover;
     background-position: center;
 }
 
 .cl2{
     background-image: url(./imagenes/portugal1.jpg);
-    height: 250px;
+    height: 290px;
     background-size: cover;
     background-position: center;
 }
 
 .cl3{
     background-image: url(./imagenes/andorra2.jpg);
-    height: 250px;
+    height: 290px;
     background-size: cover;
     background-position: center;
 }
 
 .cl4{
     background-image: url(./imagenes/irlanda2.jpg);
-    height: 250px;
+    height: 290px;
     background-size: cover;
     background-position: center;
 }
@@ -345,28 +425,28 @@ h4{
 .nleft2{
     background-image: url(./imagenes/covid.png);
     background-size: cover;
-    background-position: top center;;
+    background-position: top center;
 }
 
 .nleft3{
     background-image: url(./imagenes/CV.png);
-    background-size: cover;
-    background-position: center;;
+    background-size: contain;
+    background-position: center;
 }
 
 .nleft4{
     background-image: url(./imagenes/libros2.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
 .nleft{
-    height: 200px;
+    height: 240px;
     border: 3px solid white;
 }
 
 .nright{
-    height: 200px;
+    height: 240px;
     border: 3px solid white;
     font-family: 'Fuzzy Bubbles', cursive;
     text-align: justify;
@@ -456,4 +536,40 @@ iframe{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    .imggg{
+        height: 67vh;
+        width: 80vw;
+    }
+    
+    .imag{
+        height: 67vh;
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .imggg{
+        height: 55vh;
+        width: 75vw;
+    }
+    
+    .imag{
+        height: 55vh;
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .imggg{
+        height: 50vh;
+        width: 85vw;
+    }
+    
+    .imag{
+        height: 50vh;
+        width: 85vw;
+    }
 }
