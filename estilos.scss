@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Source+Code+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Raleway&family=Source+Code+Pro&display=swap');
 
 * {
     margin: 0;
@@ -26,7 +26,8 @@
 }
 
 .navbar-collapse {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-variant: small-caps;
     font-size: 20px;
 }
@@ -39,10 +40,11 @@
     /* height: 40vh; */
     color: yellow;
     text-shadow: 1px 1px 5px black;
-    font-family: 'Fuzzy Bubbles', cursive;
-    /* font-family: 'Lobster', cursive; */
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+    border-radius: 0;
 }
 
 h2 {
@@ -54,7 +56,8 @@ h2 {
     color: yellow;
     /* text-decoration: underline; */
     text-align: center;
-    font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px 6px black;
 }
 
@@ -63,7 +66,7 @@ h2 {
 }
 
 #h2esp {
-    margin-top: 3px;
+    margin-top: 0;
 }
 
 #carouselExampleCaptions1 {
@@ -106,6 +109,7 @@ h2 {
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 3px rgb(0, 0, 0);
     font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
 
@@ -293,9 +297,10 @@ h2 {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 3);
     font-size: 20px;
-    font-weight: bold;
+    // font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .publi2 {
@@ -306,9 +311,10 @@ h2 {
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 3);
     font-size: 20px;
-    font-weight: bold;
+    // font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .publi3 {
@@ -317,40 +323,51 @@ h2 {
     height: 150px;
     padding: 15px;
     border: 5px solid rgb(255, 255, 255);
-    background-color: rgb(38, 21, 136);
-    color: yellow;
-    font-family: 'Fuzzy Bubbles', cursive;
+    // background-color: rgb(38, 21, 136);
+    background-image: url(./imagenes/fondo-geom.png);
+    background-position: center;
+    background-size: cover;
+    color: blue;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     text-align: center;
     font-size: 18px;
 }
 
 .rrss a {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 22px;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 
 .rrss a:hover {
     color: yellow;
-    font-size: 23px;
+    text-shadow: 1px 1px 5px black;
+    transform: scale(1.05);
+    transition: 1s;
+    font-size: 22px;
 }
 
 .footer {
-    border-top: solid 4px white;
+    border-top: solid 4px rgb(255, 255, 255);
     margin-top: 20px;
     box-sizing: border-box;
     padding: 18px;
     height: 80px;
     width: 100vw;
-    background-color: rgb(0, 0, 0);
+    // background-color: rgb(0, 0, 0);
+    background-color: rgb(38, 21, 136);
     text-align: center;
     font-size: 22px;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Raleway', sans-serif;
     color: rgba(255, 255, 255, 0.849);
 }
 
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.925);
 }
 
 .esp {
@@ -361,7 +378,8 @@ body {
     margin: 0;
     height: 290px;
     background-color: yellow;
-    font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: justify;
     font-size: 16px;
     box-sizing: border-box;
@@ -407,15 +425,16 @@ h4 {
 
 .nos {
     height: 300px;
-    border: 3px solid white;
+    border: 3px solid yellow;
 }
 
 .nos p {
-    font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: justify;
     font-size: 15px;
     box-sizing: border-box;
-    padding: 18px;
+    padding: 16px;
     /* color: rgba(192, 192, 43, 0.904); */
     color: yellow;
 }
@@ -470,7 +489,8 @@ h4 {
 .nright {
     height: 240px;
     border: 3px solid white;
-    font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: justify;
     font-size: 15px;
     box-sizing: border-box;
@@ -489,6 +509,7 @@ h5 {
     background-position: center;
     box-sizing: border-box;
     padding: 20px;
+    border: 5px solid yellow;
 }
 
 .nos2 {
@@ -516,7 +537,8 @@ h5 {
     box-sizing: border-box;
     padding: 20px;
     color: yellow;
-    font-family: 'Fuzzy Bubbles', cursive;
+    // font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
     border: 5px solid yellow;
 }
 
